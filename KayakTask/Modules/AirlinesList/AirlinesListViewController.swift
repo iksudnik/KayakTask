@@ -85,6 +85,11 @@ final class AirlinesListViewController: UIViewController {
         }
     }
     
+    override func viewIsAppearing(_ animated: Bool) {
+        super.viewIsAppearing(animated)
+        viewModel.onAppear()
+    }
+    
     private func setConstraints() {
         NSLayoutConstraint.activate {
             filterSegmentedControl.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor,

@@ -26,7 +26,6 @@ final class AirlineCell: UICollectionViewCell {
     
     private let titleLabel = UILabel.new {
         $0.font = .systemFont(ofSize: 14, weight: .semibold)
-        $0.textColor = .black
     }
     
     override init(frame: CGRect) {

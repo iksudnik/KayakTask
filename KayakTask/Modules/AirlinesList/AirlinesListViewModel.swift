@@ -80,6 +80,10 @@ extension AirlinesListViewModel {
         let airlineCellModel = filteredAirlnes[indexPath.item]
         selectedAirline = allAirlines.first { $0.id == airlineCellModel.id }
     }
+    
+    func onAppear() {
+        filterAirlines(by: selectedFilter)
+    }
 }
 
 // MARK: - Private

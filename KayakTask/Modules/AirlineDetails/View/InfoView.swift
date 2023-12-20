@@ -10,12 +10,10 @@ import UIKit
 final class InfoView: UIStackView {
     private let titleLabel = UILabel.new {
         $0.font = .systemFont(ofSize: 14, weight: .semibold)
-        $0.textColor = .black
     }
     
     private let subtitleLabel = UILabel.new {
         $0.font = .systemFont(ofSize: 14, weight: .regular)
-        $0.textColor = .black
         $0.numberOfLines = 0
         $0.textAlignment = .left
     }
