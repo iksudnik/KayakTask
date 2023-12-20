@@ -14,6 +14,23 @@
 		E1A04BBF2B3314BA00BE1BD7 /* KayakTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BBE2B3314BA00BE1BD7 /* KayakTaskTests.swift */; };
 		E1A04BC92B3314BA00BE1BD7 /* KayakTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BC82B3314BA00BE1BD7 /* KayakTaskUITests.swift */; };
 		E1A04BCB2B3314BA00BE1BD7 /* KayakTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BCA2B3314BA00BE1BD7 /* KayakTaskUITestsLaunchTests.swift */; };
+		E1A04BDC2B3319E900BE1BD7 /* Airline.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BDB2B3319E900BE1BD7 /* Airline.swift */; };
+		E1A04BDE2B331ABB00BE1BD7 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BDD2B331ABB00BE1BD7 /* ApiClient.swift */; };
+		E1A04BE02B331C0B00BE1BD7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BDF2B331C0B00BE1BD7 /* Constants.swift */; };
+		E1A04BE32B331E8400BE1BD7 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BE22B331E8400BE1BD7 /* Coordinator.swift */; };
+		E1A04BE52B331EAD00BE1BD7 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BE42B331EAD00BE1BD7 /* RootCoordinator.swift */; };
+		E1A04BE72B331EC200BE1BD7 /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BE62B331EC200BE1BD7 /* AppContext.swift */; };
+		E1A04BEB2B331F9500BE1BD7 /* AirlinesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BEA2B331F9500BE1BD7 /* AirlinesListViewModel.swift */; };
+		E1A04BED2B331FA700BE1BD7 /* AirlinesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BEC2B331FA700BE1BD7 /* AirlinesListViewController.swift */; };
+		E1A04BF12B331FE000BE1BD7 /* Newable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BF02B331FE000BE1BD7 /* Newable.swift */; };
+		E1A04BF32B33200C00BE1BD7 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BF22B33200C00BE1BD7 /* Reusable.swift */; };
+		E1A04BF52B33202900BE1BD7 /* ConstraintsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BF42B33202900BE1BD7 /* ConstraintsBuilder.swift */; };
+		E1A04BF72B33206A00BE1BD7 /* UIView+AddSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BF62B33206A00BE1BD7 /* UIView+AddSubviews.swift */; };
+		E1A04BF92B3320A000BE1BD7 /* UIImageView+LoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BF82B3320A000BE1BD7 /* UIImageView+LoadImage.swift */; };
+		E1A04BFB2B33217E00BE1BD7 /* AirlinesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BFA2B33217E00BE1BD7 /* AirlinesCoordinator.swift */; };
+		E1A04BFE2B3328E100BE1BD7 /* AirlineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BFD2B3328E100BE1BD7 /* AirlineCell.swift */; };
+		E1A04C012B332BDA00BE1BD7 /* ImagePlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04C002B332BDA00BE1BD7 /* ImagePlaceholderView.swift */; };
+		E1A04C032B332F6900BE1BD7 /* AirlinesListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04C022B332F6900BE1BD7 /* AirlinesListDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +62,23 @@
 		E1A04BC42B3314BA00BE1BD7 /* KayakTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KayakTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A04BC82B3314BA00BE1BD7 /* KayakTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayakTaskUITests.swift; sourceTree = "<group>"; };
 		E1A04BCA2B3314BA00BE1BD7 /* KayakTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayakTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1A04BDB2B3319E900BE1BD7 /* Airline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airline.swift; sourceTree = "<group>"; };
+		E1A04BDD2B331ABB00BE1BD7 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		E1A04BDF2B331C0B00BE1BD7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E1A04BE22B331E8400BE1BD7 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E1A04BE42B331EAD00BE1BD7 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		E1A04BE62B331EC200BE1BD7 /* AppContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
+		E1A04BEA2B331F9500BE1BD7 /* AirlinesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlinesListViewModel.swift; sourceTree = "<group>"; };
+		E1A04BEC2B331FA700BE1BD7 /* AirlinesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlinesListViewController.swift; sourceTree = "<group>"; };
+		E1A04BF02B331FE000BE1BD7 /* Newable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Newable.swift; sourceTree = "<group>"; };
+		E1A04BF22B33200C00BE1BD7 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		E1A04BF42B33202900BE1BD7 /* ConstraintsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsBuilder.swift; sourceTree = "<group>"; };
+		E1A04BF62B33206A00BE1BD7 /* UIView+AddSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubviews.swift"; sourceTree = "<group>"; };
+		E1A04BF82B3320A000BE1BD7 /* UIImageView+LoadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+LoadImage.swift"; sourceTree = "<group>"; };
+		E1A04BFA2B33217E00BE1BD7 /* AirlinesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlinesCoordinator.swift; sourceTree = "<group>"; };
+		E1A04BFD2B3328E100BE1BD7 /* AirlineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineCell.swift; sourceTree = "<group>"; };
+		E1A04C002B332BDA00BE1BD7 /* ImagePlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePlaceholderView.swift; sourceTree = "<group>"; };
+		E1A04C022B332F6900BE1BD7 /* AirlinesListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlinesListDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +129,11 @@
 		E1A04BA62B3314B700BE1BD7 /* KayakTask */ = {
 			isa = PBXGroup;
 			children = (
-				E1A04BA72B3314B700BE1BD7 /* AppDelegate.swift */,
-				E1A04BA92B3314B700BE1BD7 /* SceneDelegate.swift */,
+				E1A04BD82B33195F00BE1BD7 /* App */,
+				E1A04BEE2B331FB600BE1BD7 /* Common */,
+				E1A04BD92B3319BC00BE1BD7 /* Clients */,
+				E1A04BE12B331E5D00BE1BD7 /* Coordinators */,
+				E1A04BE82B331F6600BE1BD7 /* Modules */,
 				E1A04BD72B33159F00BE1BD7 /* Resources */,
 			);
 			path = KayakTask;
@@ -127,6 +164,108 @@
 				E1A04BB52B3314B900BE1BD7 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1A04BD82B33195F00BE1BD7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E1A04BA72B3314B700BE1BD7 /* AppDelegate.swift */,
+				E1A04BA92B3314B700BE1BD7 /* SceneDelegate.swift */,
+				E1A04BE62B331EC200BE1BD7 /* AppContext.swift */,
+				E1A04BDF2B331C0B00BE1BD7 /* Constants.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E1A04BD92B3319BC00BE1BD7 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				E1A04BDA2B3319D500BE1BD7 /* ApiClient */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		E1A04BDA2B3319D500BE1BD7 /* ApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				E1A04BDB2B3319E900BE1BD7 /* Airline.swift */,
+				E1A04BDD2B331ABB00BE1BD7 /* ApiClient.swift */,
+			);
+			path = ApiClient;
+			sourceTree = "<group>";
+		};
+		E1A04BE12B331E5D00BE1BD7 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				E1A04BE22B331E8400BE1BD7 /* Coordinator.swift */,
+				E1A04BE42B331EAD00BE1BD7 /* RootCoordinator.swift */,
+				E1A04BFA2B33217E00BE1BD7 /* AirlinesCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		E1A04BE82B331F6600BE1BD7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E1A04BE92B331F7F00BE1BD7 /* AirlinesList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E1A04BE92B331F7F00BE1BD7 /* AirlinesList */ = {
+			isa = PBXGroup;
+			children = (
+				E1A04C042B333E5600BE1BD7 /* CollectionView */,
+				E1A04BFC2B3328D200BE1BD7 /* Cell */,
+				E1A04BEA2B331F9500BE1BD7 /* AirlinesListViewModel.swift */,
+				E1A04BEC2B331FA700BE1BD7 /* AirlinesListViewController.swift */,
+			);
+			path = AirlinesList;
+			sourceTree = "<group>";
+		};
+		E1A04BEE2B331FB600BE1BD7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E1A04BFF2B332BC700BE1BD7 /* View */,
+				E1A04BEF2B331FC200BE1BD7 /* Extensions */,
+				E1A04BF02B331FE000BE1BD7 /* Newable.swift */,
+				E1A04BF22B33200C00BE1BD7 /* Reusable.swift */,
+				E1A04BF42B33202900BE1BD7 /* ConstraintsBuilder.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E1A04BEF2B331FC200BE1BD7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E1A04BF62B33206A00BE1BD7 /* UIView+AddSubviews.swift */,
+				E1A04BF82B3320A000BE1BD7 /* UIImageView+LoadImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E1A04BFC2B3328D200BE1BD7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E1A04BFD2B3328E100BE1BD7 /* AirlineCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E1A04BFF2B332BC700BE1BD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1A04C002B332BDA00BE1BD7 /* ImagePlaceholderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1A04C042B333E5600BE1BD7 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				E1A04C022B332F6900BE1BD7 /* AirlinesListDataSource.swift */,
+			);
+			path = CollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +398,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A04BF32B33200C00BE1BD7 /* Reusable.swift in Sources */,
+				E1A04BED2B331FA700BE1BD7 /* AirlinesListViewController.swift in Sources */,
+				E1A04BE02B331C0B00BE1BD7 /* Constants.swift in Sources */,
+				E1A04BE72B331EC200BE1BD7 /* AppContext.swift in Sources */,
+				E1A04C012B332BDA00BE1BD7 /* ImagePlaceholderView.swift in Sources */,
+				E1A04BDC2B3319E900BE1BD7 /* Airline.swift in Sources */,
+				E1A04BE32B331E8400BE1BD7 /* Coordinator.swift in Sources */,
+				E1A04C032B332F6900BE1BD7 /* AirlinesListDataSource.swift in Sources */,
+				E1A04BEB2B331F9500BE1BD7 /* AirlinesListViewModel.swift in Sources */,
+				E1A04BF52B33202900BE1BD7 /* ConstraintsBuilder.swift in Sources */,
+				E1A04BF72B33206A00BE1BD7 /* UIView+AddSubviews.swift in Sources */,
 				E1A04BA82B3314B700BE1BD7 /* AppDelegate.swift in Sources */,
+				E1A04BF12B331FE000BE1BD7 /* Newable.swift in Sources */,
 				E1A04BAA2B3314B700BE1BD7 /* SceneDelegate.swift in Sources */,
+				E1A04BFE2B3328E100BE1BD7 /* AirlineCell.swift in Sources */,
+				E1A04BDE2B331ABB00BE1BD7 /* ApiClient.swift in Sources */,
+				E1A04BF92B3320A000BE1BD7 /* UIImageView+LoadImage.swift in Sources */,
+				E1A04BE52B331EAD00BE1BD7 /* RootCoordinator.swift in Sources */,
+				E1A04BFB2B33217E00BE1BD7 /* AirlinesCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
