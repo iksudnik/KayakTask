@@ -33,7 +33,8 @@ final class MainCoordinator: Coordinator {
     }
     
     func start() {
-        let viewModel = AirlinesListViewModel(apiClient: appContext.apiClient)
+        let viewModel = AirlinesListViewModel(apiClient: appContext.apiClient,
+                                              favoriteAirlinesClient: appContext.favoriteAirlinesClient)
         let viewController = AirlinesListViewController(viewModel: viewModel)
         navigationController.setViewControllers([viewController], animated: false)
         
@@ -45,7 +46,10 @@ final class MainCoordinator: Coordinator {
     }
     
     private func pushDetails(for airline: Airline) {
-
+        let viewModel = AirlineDetailsViewModel(airline: airline,
+                                                favoriteAirlinesClient: appContext.favoriteAirlinesClient)
+        let vc = AirlineDetailsViewController(viewModel: viewModel)
+        navigationController.pushViewController(vc, animated: true)
     }
 }
 

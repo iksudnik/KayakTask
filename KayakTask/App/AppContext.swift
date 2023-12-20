@@ -9,5 +9,5 @@ import Foundation
 
 struct AppContext {
     let apiClient = ApiClient.live
-
+    let favoriteAirlinesClient = FavoriteAirlinesClient.live
 }

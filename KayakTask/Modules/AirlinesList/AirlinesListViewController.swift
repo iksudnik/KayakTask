@@ -186,18 +186,23 @@ private extension AirlinesListViewController {
 }
 
 #Preview("Normal") {
-    let vc = AirlinesListViewController(viewModel: .init(apiClient: .mock))
+    let vc = AirlinesListViewController(viewModel: .init(apiClient: .mock,
+                                                         favoriteAirlinesClient: .mock))
     return vc
 }
 
 
 #Preview("Error") {
-    let vc = AirlinesListViewController(viewModel: .init(apiClient: .init(airlines: { throw NSError() })))
+    let vc = AirlinesListViewController(viewModel: .init(apiClient: .init(airlines: { throw NSError() }),
+                                        
+                                                                                             favoriteAirlinesClient: .mock))
     return vc
 }
 
 #Preview("Empty") {
     let vc = AirlinesListViewController(viewModel:
-            .init(apiClient: .init(airlines: { [] })))
+            .init(apiClient: .init(airlines: { [] }),
+                  
+                  favoriteAirlinesClient: .mock))
     return vc
 }

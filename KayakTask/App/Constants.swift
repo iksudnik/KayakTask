@@ -23,4 +23,9 @@ enum AppStrings {
     static let fetchingErrorSubtitle = "Please try again later."
     static let retryTitle = "Retry"
     static let emptyListTitle = "The list is empty"
+    static let nameTitle = "Name:"
+    static let phoneTitle = "Phone:"
+    static let websiteTitle = "Website:"
+    static let favoriteTitle = "Add to Favorites"
+    static let unfavoriteTitle = "Remove from Favorites"
 }

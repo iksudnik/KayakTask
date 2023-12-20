@@ -31,24 +31,27 @@ enum FilterType: Int, CaseIterable {
 final class AirlinesListViewModel {
     
     private let apiClient: ApiClient
+    private let favoriteAirlinesClient: FavoriteAirlinesClient
     
     private var allAirlines: [Airline] = []
     private var filteredAirlnes: [AirlineCellModel] = []
     
-    private(set) var selectedFilter: FilterType = .all {
-        didSet {
-            guard oldValue != selectedFilter else {
-                return
-            }
-            filterAirlines()
-        }
-    }
+    private var cancellables = Set<AnyCancellable>()
+    
+    @Published private(set) var selectedFilter: FilterType = .all
     
     @Published private(set) var viewState: ViewState = .idle
     @Published private(set) var selectedAirline: Airline? = nil
     
-    init(apiClient: ApiClient) {
+    init(apiClient: ApiClient, favoriteAirlinesClient: FavoriteAirlinesClient) {
         self.apiClient = apiClient
+        self.favoriteAirlinesClient = favoriteAirlinesClient
+        
+        $selectedFilter
+            .removeDuplicates()
+            .sink { [weak self] filter in
+                self?.filterAirlines(by: filter)
+            }.store(in: &cancellables)
     }
 }
 
@@ -82,12 +85,14 @@ extension AirlinesListViewModel {
 // MARK: - Private
 
 private extension AirlinesListViewModel {
-    func filterAirlines() {
-        switch selectedFilter {
+    func filterAirlines(by filter: FilterType) {
+        switch filter {
         case .all:
             filteredAirlnes = allAirlines.map { $0.toAirlineCellModel() }
         case .favorite:
-            filteredAirlnes = allAirlines.map { $0.toAirlineCellModel() }
+            filteredAirlnes = allAirlines
+                .filter(favoriteAirlinesClient.isFavorite)
+                .map { $0.toAirlineCellModel() }
         }
         
         viewState = .success(filteredAirlnes)

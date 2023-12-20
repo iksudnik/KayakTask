@@ -8,6 +8,7 @@
 import Foundation
 
 // MARK: - Interface
+
 struct ApiClient {
     var airlines: () async throws -> [Airline]
 }
@@ -28,7 +29,7 @@ extension ApiClient {
 }
 
 
-// MARK: Mock clients
+// MARK: Mock client
 
 extension ApiClient {
     static var mock: Self {

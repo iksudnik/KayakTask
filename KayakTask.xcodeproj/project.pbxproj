@@ -31,6 +31,10 @@
 		E1A04BFE2B3328E100BE1BD7 /* AirlineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04BFD2B3328E100BE1BD7 /* AirlineCell.swift */; };
 		E1A04C012B332BDA00BE1BD7 /* ImagePlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04C002B332BDA00BE1BD7 /* ImagePlaceholderView.swift */; };
 		E1A04C032B332F6900BE1BD7 /* AirlinesListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04C022B332F6900BE1BD7 /* AirlinesListDataSource.swift */; };
+		E1A04C092B3342AF00BE1BD7 /* FavoritesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04C082B3342AF00BE1BD7 /* FavoritesClient.swift */; };
+		E1A04C0B2B3346A100BE1BD7 /* AirlineDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04C0A2B3346A100BE1BD7 /* AirlineDetailsViewModel.swift */; };
+		E1A04C0D2B33485600BE1BD7 /* AirlineDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04C0C2B33485600BE1BD7 /* AirlineDetailsViewController.swift */; };
+		E1A04C0F2B33492500BE1BD7 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04C0E2B33492500BE1BD7 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +83,10 @@
 		E1A04BFD2B3328E100BE1BD7 /* AirlineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineCell.swift; sourceTree = "<group>"; };
 		E1A04C002B332BDA00BE1BD7 /* ImagePlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePlaceholderView.swift; sourceTree = "<group>"; };
 		E1A04C022B332F6900BE1BD7 /* AirlinesListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlinesListDataSource.swift; sourceTree = "<group>"; };
+		E1A04C082B3342AF00BE1BD7 /* FavoritesClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesClient.swift; sourceTree = "<group>"; };
+		E1A04C0A2B3346A100BE1BD7 /* AirlineDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineDetailsViewModel.swift; sourceTree = "<group>"; };
+		E1A04C0C2B33485600BE1BD7 /* AirlineDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineDetailsViewController.swift; sourceTree = "<group>"; };
+		E1A04C0E2B33492500BE1BD7 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				E1A04BDA2B3319D500BE1BD7 /* ApiClient */,
+				E1A04C082B3342AF00BE1BD7 /* FavoritesClient.swift */,
 			);
 			path = Clients;
 			sourceTree = "<group>";
@@ -208,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				E1A04BE92B331F7F00BE1BD7 /* AirlinesList */,
+				E1A04C072B33426500BE1BD7 /* AirlineDetails */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -266,6 +276,24 @@
 				E1A04C022B332F6900BE1BD7 /* AirlinesListDataSource.swift */,
 			);
 			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		E1A04C072B33426500BE1BD7 /* AirlineDetails */ = {
+			isa = PBXGroup;
+			children = (
+				E1A04C102B334A7900BE1BD7 /* View */,
+				E1A04C0A2B3346A100BE1BD7 /* AirlineDetailsViewModel.swift */,
+				E1A04C0C2B33485600BE1BD7 /* AirlineDetailsViewController.swift */,
+			);
+			path = AirlineDetails;
+			sourceTree = "<group>";
+		};
+		E1A04C102B334A7900BE1BD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1A04C0E2B33492500BE1BD7 /* InfoView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,18 +432,22 @@
 				E1A04BE72B331EC200BE1BD7 /* AppContext.swift in Sources */,
 				E1A04C012B332BDA00BE1BD7 /* ImagePlaceholderView.swift in Sources */,
 				E1A04BDC2B3319E900BE1BD7 /* Airline.swift in Sources */,
+				E1A04C0D2B33485600BE1BD7 /* AirlineDetailsViewController.swift in Sources */,
 				E1A04BE32B331E8400BE1BD7 /* Coordinator.swift in Sources */,
+				E1A04C0B2B3346A100BE1BD7 /* AirlineDetailsViewModel.swift in Sources */,
 				E1A04C032B332F6900BE1BD7 /* AirlinesListDataSource.swift in Sources */,
 				E1A04BEB2B331F9500BE1BD7 /* AirlinesListViewModel.swift in Sources */,
 				E1A04BF52B33202900BE1BD7 /* ConstraintsBuilder.swift in Sources */,
 				E1A04BF72B33206A00BE1BD7 /* UIView+AddSubviews.swift in Sources */,
 				E1A04BA82B3314B700BE1BD7 /* AppDelegate.swift in Sources */,
 				E1A04BF12B331FE000BE1BD7 /* Newable.swift in Sources */,
+				E1A04C0F2B33492500BE1BD7 /* InfoView.swift in Sources */,
 				E1A04BAA2B3314B700BE1BD7 /* SceneDelegate.swift in Sources */,
 				E1A04BFE2B3328E100BE1BD7 /* AirlineCell.swift in Sources */,
 				E1A04BDE2B331ABB00BE1BD7 /* ApiClient.swift in Sources */,
 				E1A04BF92B3320A000BE1BD7 /* UIImageView+LoadImage.swift in Sources */,
 				E1A04BE52B331EAD00BE1BD7 /* RootCoordinator.swift in Sources */,
+				E1A04C092B3342AF00BE1BD7 /* FavoritesClient.swift in Sources */,
 				E1A04BFB2B33217E00BE1BD7 /* AirlinesCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
